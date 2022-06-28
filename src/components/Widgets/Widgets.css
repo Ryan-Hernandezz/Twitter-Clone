@@ -1,0 +1,46 @@
+ .widgets {
+  background-color: rgb(0, 5, 22);
+  }
+  
+  .widgets::-webkit-scrollbar {
+    background-color: black;
+    display: none;
+  }
+
+  .widgets_input {
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .widgets_input > input {
+    border: none;
+    background-color: rgb(0, 5, 22);
+    color: white;
+  }
+
+  .widgets_input > input:focus {
+    outline: none;
+  }
+
+  .widgets_searchIcon {
+    color: white;
+  }
+
+  .widgets_widgetContainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: rgb(0, 5, 22);
+    border-radius: 20px;
+  }
+
+  .widgets_widgetContainer > h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }

@@ -1,0 +1,50 @@
+.post_body > img {
+    border-radius: 20px;
+    width: 100%;
+  }
+
+.post {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twighter-background);
+    background-color: rgb(0, 5, 22);
+  }
+
+.post_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: white;
+  }
+
+.post_badge {
+    font-size: 14px !important;
+    color: var(--twighter-color);
+  }
+
+.post_headerSpecial {
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+  }
+
+.post_headerText > h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: white;
+  }
+
+.post_headerDescription {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+.post_body {
+    flex: 1;
+    padding: 10px;
+  }
+
+.post_avatar {
+    padding: 20px;
+  }
